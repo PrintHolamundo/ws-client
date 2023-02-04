@@ -33,7 +33,7 @@ const addListeners = (socket: Socket) => {
     event.preventDefault();
     if (messageInput.value.trim().length <= 0) return;
     socket.emit("message-from-client", {
-      id: "YO!!!",
+      id: "YO!!!!!",
       message: messageInput.value,
     });
     messageInput.value = "";

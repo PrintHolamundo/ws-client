@@ -1,7 +1,7 @@
-import { connectToserver } from './socket-client'
-import './style.css'
+import { connectToserver } from "./socket-client";
+import "./style.css";
 
-document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
+document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
   <h1>WebSocket Client</h1>
   <span id="server-status">offline</span>
@@ -12,6 +12,6 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <h3>Messages</h3>
   <ul id="messages-ul"></ul>
   </div>
-`
+`;
 
-connectToserver()
+connectToserver();
